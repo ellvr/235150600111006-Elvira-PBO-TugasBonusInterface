@@ -41,9 +41,7 @@ abstract class Civitas {
         System.out.print("bermain di Game Corner");
     }
 
-    void naikLift() {
-        System.out.print("naik lift");
-    }
+    abstract void naikLift();
 
     @Override
     public String toString() {
